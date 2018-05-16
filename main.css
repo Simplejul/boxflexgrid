@@ -1,49 +1,66 @@
-#box{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    height: 700px;
-}
+body{
+    height: 100%;
 
-
-    #flex{
-        background-color: rgb(230, 150, 113);
-        width: 100%;
+}   
+   
+   #box{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: 700px;
     }
 
-        #bigflex{
-            display: flex;
-            height: 80%;
+
+        #flex{
+            background-color: rgb(230, 150, 113);
+            width: 100%;
         }
 
-            #flexinteractive{
-                background-color: rgb(134, 124, 124);
-                width: 60%;
+            #flex h1{
+                line-height: 10px;
+            }
+            #bigflex{
+                display: flex;
+                height: 80%;
             }
 
-            #flexexplain{
-                background-color: rgb(97, 75, 75);
-                width: 40%;                
+                #flexinteractive{
+                    background-color: rgb(134, 124, 124);
+                    width: 60%;
+                }
+
+                #flexexplain{
+                    background-color: rgb(97, 75, 75);
+                    width: 40%;                
+                }
+
+
+        #grid{
+            background-color: rgb(48, 231, 146);
+            width: 100%;
+            overflow: hidden;
+        }
+            #grid h1{
+                line-height: 10px;
+            }
+            #bigrid{
+                display: grid;
+                grid-template-columns: 1fr 40%;
+                grid-template-rows: minmax(50px, auto);
+                grid-gap: 1rem;
             }
 
+                #gridinteractive{
+                    background-color: rgb(134, 124, 124);
 
-    #grid{
-        background-color: rgb(48, 231, 146);
-        width: 100%;
-        display: grid;
+                }
+
+                #gridexplain{
+                    background-color: rgb(97, 75, 75);
+
+                }
+
+    .clickto{
+        background-color: rgb(134, 193, 221);
+        height: 50px;
     }
-
-        #gridinteractive{
-            background-color: rgb(134, 124, 124);
-
-        }
-
-        #gridexplain{
-            background-color: rgb(97, 75, 75);
-
-        }
-
-.clickto{
-    background-color: rgb(134, 193, 221);
-    height: 50px;
-}
