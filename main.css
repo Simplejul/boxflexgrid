@@ -1,0 +1,49 @@
+#box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 700px;
+}
+
+
+    #flex{
+        background-color: rgb(230, 150, 113);
+        width: 100%;
+    }
+
+        #bigflex{
+            display: flex;
+            height: 80%;
+        }
+
+            #flexinteractive{
+                background-color: rgb(134, 124, 124);
+                width: 60%;
+            }
+
+            #flexexplain{
+                background-color: rgb(97, 75, 75);
+                width: 40%;                
+            }
+
+
+    #grid{
+        background-color: rgb(48, 231, 146);
+        width: 100%;
+        display: grid;
+    }
+
+        #gridinteractive{
+            background-color: rgb(134, 124, 124);
+
+        }
+
+        #gridexplain{
+            background-color: rgb(97, 75, 75);
+
+        }
+
+.clickto{
+    background-color: rgb(134, 193, 221);
+    height: 50px;
+}
